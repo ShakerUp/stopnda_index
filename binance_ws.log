@@ -1,0 +1,551 @@
+2026-04-24 18:17:14 | INFO | Connecting to Binance WebSocket...
+2026-04-24 18:17:14 | INFO | ✅ WS alive | last message 0.9s ago | cached=0 symbols
+2026-04-24 18:17:15 | INFO | ✅ Connected to Binance WebSocket
+2026-04-24 18:17:34 | INFO | ✅ WS alive | last message 20.9s ago | cached=0 symbols
+2026-04-24 18:17:54 | INFO | ✅ WS alive | last message 40.9s ago | cached=0 symbols
+2026-04-24 18:18:08 | ERROR | ❌ WebSocket error: no running event loop
+Traceback (most recent call last):
+  File "C:\Users\sereg\Documents\dev\stopnda_index\index.py", line 122, in websocket_listener
+    async for data in ws:
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sereg\Documents\dev\stopnda_index\index.py", line 113, in websocket_listener
+    async with websockets.connect(
+  File "C:\Users\sereg\AppData\Roaming\Python\Python312\site-packages\websockets\legacy\client.py", line 637, in __aexit__
+    await self.protocol.close()
+  File "C:\Users\sereg\AppData\Roaming\Python\Python312\site-packages\websockets\legacy\protocol.py", line 769, in close
+    async with asyncio_timeout(self.close_timeout):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\timeouts.py", line 145, in timeout
+    loop = events.get_running_loop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+2026-04-24 18:18:08 | INFO | 🔄 Reconnecting to Binance in 5 seconds...
+2026-04-24 18:18:10 | INFO | Connecting to Binance WebSocket...
+2026-04-24 18:18:10 | INFO | ✅ WS alive | last message 0.8s ago | cached=0 symbols
+2026-04-24 18:18:11 | INFO | ✅ Connected to Binance WebSocket
+2026-04-24 18:18:13 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:13 | INFO | 🚨 ALERT queued | TOKENUSDT | dev=-6.684% | mark=0.0040668 | index=0.00435809
+2026-04-24 18:18:13 | INFO | 📊 Lowest dev now: TOKENUSDT | -6.684% | mark=0.004067 | index=0.004358
+2026-04-24 18:18:13 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:13 | INFO | 📊 Lowest dev now: XPDUSDT | -0.134% | mark=1500.397403 | index=1502.410000
+2026-04-24 18:18:13 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:13 | INFO | 📊 Lowest dev now: TOKENUSDT | -6.680% | mark=0.004067 | index=0.004358
+2026-04-24 18:18:13 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:13 | INFO | 📊 Lowest dev now: XPDUSDT | -0.134% | mark=1500.235629 | index=1502.245000
+2026-04-24 18:18:14 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:14 | INFO | 📊 Lowest dev now: TOKENUSDT | -6.676% | mark=0.004067 | index=0.004358
+2026-04-24 18:18:14 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:14 | INFO | 📊 Lowest dev now: XPDUSDT | -0.134% | mark=1500.367258 | index=1502.373500
+2026-04-24 18:18:15 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:15 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.079% | mark=0.004067 | index=0.004377
+2026-04-24 18:18:15 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:15 | INFO | 📊 Lowest dev now: XPDUSDT | -0.133% | mark=1500.415548 | index=1502.418500
+2026-04-24 18:18:16 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:16 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.075% | mark=0.004068 | index=0.004377
+2026-04-24 18:18:16 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:16 | INFO | 📊 Lowest dev now: XPDUSDT | -0.133% | mark=1500.419726 | index=1502.418500
+2026-04-24 18:18:17 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:17 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.070% | mark=0.004068 | index=0.004377
+2026-04-24 18:18:17 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:17 | INFO | 📊 Lowest dev now: XPDUSDT | -0.133% | mark=1500.366371 | index=1502.358000
+2026-04-24 18:18:18 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:18 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.108% | mark=0.004068 | index=0.004379
+2026-04-24 18:18:18 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:18 | INFO | 📊 Lowest dev now: XPDUSDT | -0.132% | mark=1500.373516 | index=1502.358000
+2026-04-24 18:18:19 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:19 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.108% | mark=0.004068 | index=0.004379
+2026-04-24 18:18:19 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:19 | INFO | 📊 Lowest dev now: XPDUSDT | -0.132% | mark=1500.370177 | index=1502.347500
+2026-04-24 18:18:20 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:20 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.100% | mark=0.004068 | index=0.004379
+2026-04-24 18:18:20 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:20 | INFO | 📊 Lowest dev now: XPDUSDT | -0.131% | mark=1500.378032 | index=1502.347500
+2026-04-24 18:18:21 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:21 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.100% | mark=0.004068 | index=0.004379
+2026-04-24 18:18:21 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:21 | INFO | 📊 Lowest dev now: XPDUSDT | -0.131% | mark=1500.245774 | index=1502.210000
+2026-04-24 18:18:22 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:22 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.095% | mark=0.004068 | index=0.004379
+2026-04-24 18:18:22 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:22 | INFO | 📊 Lowest dev now: XPDUSDT | -0.130% | mark=1500.222629 | index=1502.182000
+2026-04-24 18:18:23 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:23 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.127% | mark=0.004069 | index=0.004381
+2026-04-24 18:18:23 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:23 | INFO | 📊 Lowest dev now: XPDUSDT | -0.130% | mark=1500.241032 | index=1502.194500
+2026-04-24 18:18:24 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:24 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.122% | mark=0.004069 | index=0.004381
+2026-04-24 18:18:24 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:24 | INFO | 📊 Lowest dev now: XPDUSDT | -0.128% | mark=1500.282350 | index=1502.207000
+2026-04-24 18:18:25 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:25 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.117% | mark=0.004069 | index=0.004381
+2026-04-24 18:18:25 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:25 | INFO | 📊 Lowest dev now: XPDUSDT | -0.128% | mark=1500.314371 | index=1502.239500
+2026-04-24 18:18:26 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:26 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.112% | mark=0.004069 | index=0.004381
+2026-04-24 18:18:26 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:26 | INFO | 📊 Lowest dev now: XPDUSDT | -0.127% | mark=1500.158016 | index=1502.068000
+2026-04-24 18:18:27 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:27 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.109% | mark=0.004070 | index=0.004381
+2026-04-24 18:18:27 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:27 | INFO | 📊 Lowest dev now: XPDUSDT | -0.126% | mark=1500.063000 | index=1501.960500
+2026-04-24 18:18:28 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:28 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.108% | mark=0.004070 | index=0.004381
+2026-04-24 18:18:28 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:28 | INFO | 📊 Lowest dev now: XPDUSDT | -0.125% | mark=1499.943065 | index=1501.822000
+2026-04-24 18:18:29 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:29 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.002% | mark=0.004070 | index=0.004377
+2026-04-24 18:18:29 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:29 | INFO | 📊 Lowest dev now: XPDUSDT | -0.124% | mark=1499.970065 | index=1501.825000
+2026-04-24 18:18:30 | INFO | ✅ WS alive | last message 0.9s ago | cached=689 symbols
+2026-04-24 18:18:30 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:30 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.002% | mark=0.004070 | index=0.004377
+2026-04-24 18:18:30 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:30 | INFO | 📊 Lowest dev now: XPDUSDT | -0.122% | mark=1499.822758 | index=1501.650000
+2026-04-24 18:18:31 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:31 | INFO | 📊 Lowest dev now: TOKENUSDT | -6.996% | mark=0.004070 | index=0.004377
+2026-04-24 18:18:31 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:31 | INFO | 📊 Lowest dev now: BZUSDT | -0.120% | mark=99.690161 | index=99.810000
+2026-04-24 18:18:32 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:32 | INFO | 📊 Lowest dev now: TOKENUSDT | -6.875% | mark=0.004071 | index=0.004371
+2026-04-24 18:18:32 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:32 | INFO | 📊 Lowest dev now: BZUSDT | -0.121% | mark=99.689516 | index=99.810000
+2026-04-24 18:18:33 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:33 | INFO | 📊 Lowest dev now: TOKENUSDT | -6.870% | mark=0.004071 | index=0.004371
+2026-04-24 18:18:33 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:33 | INFO | 📊 Lowest dev now: BZUSDT | -0.121% | mark=99.689194 | index=99.810000
+2026-04-24 18:18:34 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:34 | INFO | 📊 Lowest dev now: TOKENUSDT | -6.860% | mark=0.004071 | index=0.004371
+2026-04-24 18:18:34 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:34 | INFO | 📊 Lowest dev now: BZUSDT | -0.122% | mark=99.688548 | index=99.810000
+2026-04-24 18:18:35 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:35 | INFO | 📊 Lowest dev now: TOKENUSDT | -6.860% | mark=0.004071 | index=0.004371
+2026-04-24 18:18:35 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:35 | INFO | 📊 Lowest dev now: BZUSDT | -0.124% | mark=99.686290 | index=99.810000
+2026-04-24 18:18:36 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:36 | INFO | 📊 Lowest dev now: TOKENUSDT | -6.855% | mark=0.004071 | index=0.004371
+2026-04-24 18:18:36 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:36 | INFO | 📊 Lowest dev now: BZUSDT | -0.127% | mark=99.683065 | index=99.810000
+2026-04-24 18:18:37 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:37 | INFO | 📊 Lowest dev now: TOKENUSDT | -6.850% | mark=0.004072 | index=0.004371
+2026-04-24 18:18:37 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:37 | INFO | 📊 Lowest dev now: BZUSDT | -0.131% | mark=99.679194 | index=99.810000
+2026-04-24 18:18:38 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:38 | INFO | 📊 Lowest dev now: TOKENUSDT | -6.840% | mark=0.004072 | index=0.004371
+2026-04-24 18:18:38 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:38 | INFO | 📊 Lowest dev now: BZUSDT | -0.135% | mark=99.675000 | index=99.810000
+2026-04-24 18:18:39 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:39 | INFO | 📊 Lowest dev now: TOKENUSDT | -6.836% | mark=0.004072 | index=0.004371
+2026-04-24 18:18:39 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:39 | INFO | 📊 Lowest dev now: BZUSDT | -0.140% | mark=99.670484 | index=99.810000
+2026-04-24 18:18:40 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:40 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.154% | mark=0.004073 | index=0.004386
+2026-04-24 18:18:40 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:40 | INFO | 📊 Lowest dev now: BZUSDT | -0.142% | mark=99.667903 | index=99.810000
+2026-04-24 18:18:41 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:41 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.154% | mark=0.004073 | index=0.004386
+2026-04-24 18:18:41 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:41 | INFO | 📊 Lowest dev now: BZUSDT | -0.145% | mark=99.665323 | index=99.810000
+2026-04-24 18:18:42 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:42 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.143% | mark=0.004073 | index=0.004386
+2026-04-24 18:18:42 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:42 | INFO | 📊 Lowest dev now: BZUSDT | -0.147% | mark=99.635645 | index=99.782000
+2026-04-24 18:18:43 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:43 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.054% | mark=0.004073 | index=0.004382
+2026-04-24 18:18:43 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:43 | INFO | 📊 Lowest dev now: BZUSDT | -0.149% | mark=99.633645 | index=99.782000
+2026-04-24 18:18:44 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:44 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.049% | mark=0.004073 | index=0.004382
+2026-04-24 18:18:44 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:44 | INFO | 📊 Lowest dev now: BZUSDT | -0.152% | mark=99.630677 | index=99.782000
+2026-04-24 18:18:45 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:45 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.048% | mark=0.004074 | index=0.004382
+2026-04-24 18:18:45 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:45 | INFO | 📊 Lowest dev now: BZUSDT | -0.154% | mark=99.596133 | index=99.750000
+2026-04-24 18:18:46 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:46 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.258% | mark=0.004074 | index=0.004393
+2026-04-24 18:18:46 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:46 | INFO | 📊 Lowest dev now: BZUSDT | -0.156% | mark=99.594484 | index=99.750000
+2026-04-24 18:18:47 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:47 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.255% | mark=0.004074 | index=0.004393
+2026-04-24 18:18:47 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:47 | INFO | 📊 Lowest dev now: BZUSDT | -0.158% | mark=99.591903 | index=99.750000
+2026-04-24 18:18:48 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:48 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.251% | mark=0.004074 | index=0.004393
+2026-04-24 18:18:48 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:48 | INFO | 📊 Lowest dev now: BZUSDT | -0.160% | mark=99.549968 | index=99.710000
+2026-04-24 18:18:49 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:49 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.246% | mark=0.004074 | index=0.004393
+2026-04-24 18:18:49 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:49 | INFO | 📊 Lowest dev now: BZUSDT | -0.161% | mark=99.549323 | index=99.710000
+2026-04-24 18:18:50 | INFO | ✅ WS alive | last message 0.9s ago | cached=689 symbols
+2026-04-24 18:18:50 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:50 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.133% | mark=0.004075 | index=0.004388
+2026-04-24 18:18:50 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:50 | INFO | 📊 Lowest dev now: BZUSDT | -0.162% | mark=99.529000 | index=99.690000
+2026-04-24 18:18:51 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:51 | INFO | 🚨 ALERT queued | TOKENUSDT | dev=-7.293% | mark=0.00407515 | index=0.00439573
+2026-04-24 18:18:51 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.293% | mark=0.004075 | index=0.004396
+2026-04-24 18:18:51 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:51 | INFO | 📊 Lowest dev now: BZUSDT | -0.162% | mark=99.528032 | index=99.690000
+2026-04-24 18:18:52 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:52 | INFO | 📊 Lowest dev now: TOKENUSDT | -6.924% | mark=0.004075 | index=0.004379
+2026-04-24 18:18:52 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:52 | INFO | 📊 Lowest dev now: BZUSDT | -0.162% | mark=99.528032 | index=99.690000
+2026-04-24 18:18:53 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:53 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.000% | mark=0.004076 | index=0.004382
+2026-04-24 18:18:53 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:53 | INFO | 📊 Lowest dev now: BZUSDT | -0.163% | mark=99.527800 | index=99.690000
+2026-04-24 18:18:54 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:54 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.208% | mark=0.004076 | index=0.004392
+2026-04-24 18:18:54 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:54 | INFO | 📊 Lowest dev now: BZUSDT | -0.162% | mark=99.528677 | index=99.690000
+2026-04-24 18:18:55 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:55 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.203% | mark=0.004076 | index=0.004392
+2026-04-24 18:18:55 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:55 | INFO | 📊 Lowest dev now: BZUSDT | -0.162% | mark=99.528677 | index=99.690000
+2026-04-24 18:18:56 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:56 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.199% | mark=0.004076 | index=0.004392
+2026-04-24 18:18:56 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:56 | INFO | 📊 Lowest dev now: BZUSDT | -0.163% | mark=99.527710 | index=99.690000
+2026-04-24 18:18:57 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:57 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.197% | mark=0.004076 | index=0.004392
+2026-04-24 18:18:57 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:57 | INFO | 📊 Lowest dev now: BZUSDT | -0.164% | mark=99.526742 | index=99.690000
+2026-04-24 18:18:58 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:58 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.255% | mark=0.004077 | index=0.004395
+2026-04-24 18:18:58 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:58 | INFO | 📊 Lowest dev now: BZUSDT | -0.165% | mark=99.525774 | index=99.690000
+2026-04-24 18:18:59 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:18:59 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.269% | mark=0.004077 | index=0.004397
+2026-04-24 18:18:59 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:18:59 | INFO | 📊 Lowest dev now: BZUSDT | -0.165% | mark=99.525129 | index=99.690000
+2026-04-24 18:19:00 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:00 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.264% | mark=0.004077 | index=0.004397
+2026-04-24 18:19:00 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:00 | INFO | 📊 Lowest dev now: BZUSDT | -0.165% | mark=99.525467 | index=99.690000
+2026-04-24 18:19:01 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:01 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.262% | mark=0.004077 | index=0.004397
+2026-04-24 18:19:01 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:01 | INFO | 📊 Lowest dev now: BZUSDT | -0.164% | mark=99.526742 | index=99.690000
+2026-04-24 18:19:02 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:02 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.113% | mark=0.004078 | index=0.004390
+2026-04-24 18:19:02 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:02 | INFO | 📊 Lowest dev now: BZUSDT | -0.163% | mark=99.527065 | index=99.690000
+2026-04-24 18:19:03 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:03 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.109% | mark=0.004078 | index=0.004390
+2026-04-24 18:19:03 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:03 | INFO | 📊 Lowest dev now: BZUSDT | -0.164% | mark=99.536133 | index=99.700000
+2026-04-24 18:19:04 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:04 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.108% | mark=0.004078 | index=0.004390
+2026-04-24 18:19:04 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:04 | INFO | 📊 Lowest dev now: BZUSDT | -0.165% | mark=99.535774 | index=99.700000
+2026-04-24 18:19:05 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:05 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.103% | mark=0.004078 | index=0.004390
+2026-04-24 18:19:05 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:05 | INFO | 📊 Lowest dev now: BZUSDT | -0.165% | mark=99.535129 | index=99.700000
+2026-04-24 18:19:06 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:06 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.097% | mark=0.004078 | index=0.004390
+2026-04-24 18:19:06 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:06 | INFO | 📊 Lowest dev now: BZUSDT | -0.165% | mark=99.535774 | index=99.700000
+2026-04-24 18:19:07 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:07 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.092% | mark=0.004079 | index=0.004390
+2026-04-24 18:19:07 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:07 | INFO | 📊 Lowest dev now: BZUSDT | -0.164% | mark=99.536419 | index=99.700000
+2026-04-24 18:19:08 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:08 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.082% | mark=0.004079 | index=0.004390
+2026-04-24 18:19:08 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:08 | INFO | 📊 Lowest dev now: BZUSDT | -0.163% | mark=99.537065 | index=99.700000
+2026-04-24 18:19:09 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:09 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.081% | mark=0.004079 | index=0.004390
+2026-04-24 18:19:09 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:09 | INFO | 📊 Lowest dev now: BZUSDT | -0.162% | mark=99.528355 | index=99.690000
+2026-04-24 18:19:10 | INFO | ✅ WS alive | last message 0.9s ago | cached=689 symbols
+2026-04-24 18:19:10 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:10 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.200% | mark=0.004080 | index=0.004396
+2026-04-24 18:19:10 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:10 | INFO | 📊 Lowest dev now: BZUSDT | -0.161% | mark=99.529645 | index=99.690000
+2026-04-24 18:19:11 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:11 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.293% | mark=0.004080 | index=0.004401
+2026-04-24 18:19:11 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:11 | INFO | 📊 Lowest dev now: BZUSDT | -0.160% | mark=99.530935 | index=99.690000
+2026-04-24 18:19:12 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:12 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.193% | mark=0.004080 | index=0.004396
+2026-04-24 18:19:12 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:12 | INFO | 📊 Lowest dev now: BZUSDT | -0.158% | mark=99.532226 | index=99.690000
+2026-04-24 18:19:13 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:13 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.193% | mark=0.004080 | index=0.004396
+2026-04-24 18:19:13 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:13 | INFO | 📊 Lowest dev now: BZUSDT | -0.158% | mark=99.532613 | index=99.690000
+2026-04-24 18:19:14 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:14 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.048% | mark=0.004081 | index=0.004390
+2026-04-24 18:19:14 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:14 | INFO | 📊 Lowest dev now: BZUSDT | -0.157% | mark=99.533645 | index=99.690000
+2026-04-24 18:19:15 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:15 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.101% | mark=0.004081 | index=0.004393
+2026-04-24 18:19:15 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:15 | INFO | 📊 Lowest dev now: BZUSDT | -0.155% | mark=99.535645 | index=99.690000
+2026-04-24 18:19:16 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:16 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.095% | mark=0.004081 | index=0.004393
+2026-04-24 18:19:16 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:16 | INFO | 📊 Lowest dev now: BZUSDT | -0.154% | mark=99.536290 | index=99.690000
+2026-04-24 18:19:17 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:17 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.209% | mark=0.004081 | index=0.004398
+2026-04-24 18:19:17 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:17 | INFO | 📊 Lowest dev now: BZUSDT | -0.153% | mark=99.537581 | index=99.690000
+2026-04-24 18:19:18 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:18 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.209% | mark=0.004081 | index=0.004398
+2026-04-24 18:19:18 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:18 | INFO | 📊 Lowest dev now: BZUSDT | -0.151% | mark=99.539194 | index=99.690000
+2026-04-24 18:19:19 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:19 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.203% | mark=0.004082 | index=0.004398
+2026-04-24 18:19:19 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:19 | INFO | 📊 Lowest dev now: BZUSDT | -0.151% | mark=99.539516 | index=99.690000
+2026-04-24 18:19:20 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:20 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.198% | mark=0.004082 | index=0.004398
+2026-04-24 18:19:20 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:20 | INFO | 📊 Lowest dev now: BZUSDT | -0.151% | mark=99.539839 | index=99.690000
+2026-04-24 18:19:21 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:21 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.189% | mark=0.004082 | index=0.004398
+2026-04-24 18:19:21 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:21 | INFO | 📊 Lowest dev now: BZUSDT | -0.149% | mark=99.541452 | index=99.690000
+2026-04-24 18:19:22 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:22 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.182% | mark=0.004082 | index=0.004398
+2026-04-24 18:19:22 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:22 | INFO | 📊 Lowest dev now: BZUSDT | -0.147% | mark=99.543387 | index=99.690000
+2026-04-24 18:19:23 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:23 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.182% | mark=0.004082 | index=0.004398
+2026-04-24 18:19:23 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:23 | INFO | 📊 Lowest dev now: BZUSDT | -0.146% | mark=99.554839 | index=99.700000
+2026-04-24 18:19:24 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:24 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.176% | mark=0.004083 | index=0.004398
+2026-04-24 18:19:24 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:24 | INFO | 📊 Lowest dev now: BZUSDT | -0.145% | mark=99.555484 | index=99.700000
+2026-04-24 18:19:25 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:25 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.171% | mark=0.004083 | index=0.004398
+2026-04-24 18:19:25 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:25 | INFO | 📊 Lowest dev now: BZUSDT | -0.144% | mark=99.556452 | index=99.700000
+2026-04-24 18:19:26 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:26 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.181% | mark=0.004083 | index=0.004399
+2026-04-24 18:19:26 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:26 | INFO | 📊 Lowest dev now: BZUSDT | -0.144% | mark=99.596129 | index=99.740000
+2026-04-24 18:19:27 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:27 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.174% | mark=0.004084 | index=0.004399
+2026-04-24 18:19:27 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:27 | INFO | 📊 Lowest dev now: BZUSDT | -0.144% | mark=99.596167 | index=99.740000
+2026-04-24 18:19:28 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:28 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.508% | mark=0.004084 | index=0.004415
+2026-04-24 18:19:28 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:28 | INFO | 📊 Lowest dev now: BZUSDT | -0.144% | mark=99.596452 | index=99.740000
+2026-04-24 18:19:29 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:29 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.507% | mark=0.004084 | index=0.004415
+2026-04-24 18:19:29 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:29 | INFO | 📊 Lowest dev now: BZUSDT | -0.144% | mark=99.596774 | index=99.740000
+2026-04-24 18:19:30 | INFO | ✅ WS alive | last message 0.9s ago | cached=689 symbols
+2026-04-24 18:19:30 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:30 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.500% | mark=0.004084 | index=0.004415
+2026-04-24 18:19:30 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:30 | INFO | 📊 Lowest dev now: BZUSDT | -0.144% | mark=99.596452 | index=99.740000
+2026-04-24 18:19:31 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:31 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.490% | mark=0.004084 | index=0.004415
+2026-04-24 18:19:31 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:31 | INFO | 📊 Lowest dev now: BZUSDT | -0.144% | mark=99.596129 | index=99.740000
+2026-04-24 18:19:32 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:32 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.601% | mark=0.004085 | index=0.004421
+2026-04-24 18:19:32 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:32 | INFO | 📊 Lowest dev now: BZUSDT | -0.144% | mark=99.586129 | index=99.730000
+2026-04-24 18:19:33 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:33 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.592% | mark=0.004085 | index=0.004421
+2026-04-24 18:19:33 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:33 | INFO | 📊 Lowest dev now: BZUSDT | -0.144% | mark=99.586452 | index=99.730000
+2026-04-24 18:19:34 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:34 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.591% | mark=0.004085 | index=0.004421
+2026-04-24 18:19:34 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:34 | INFO | 📊 Lowest dev now: BZUSDT | -0.143% | mark=99.587419 | index=99.730000
+2026-04-24 18:19:35 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:35 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.540% | mark=0.004085 | index=0.004419
+2026-04-24 18:19:35 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:35 | INFO | 📊 Lowest dev now: BZUSDT | -0.140% | mark=99.590167 | index=99.730000
+2026-04-24 18:19:36 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:36 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.632% | mark=0.004086 | index=0.004423
+2026-04-24 18:19:36 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:36 | INFO | 📊 Lowest dev now: BZUSDT | -0.139% | mark=99.590968 | index=99.730000
+2026-04-24 18:19:37 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:37 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.631% | mark=0.004086 | index=0.004423
+2026-04-24 18:19:37 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:37 | INFO | 📊 Lowest dev now: BZUSDT | -0.138% | mark=99.592581 | index=99.730000
+2026-04-24 18:19:38 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:38 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.625% | mark=0.004086 | index=0.004423
+2026-04-24 18:19:38 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:38 | INFO | 📊 Lowest dev now: BZUSDT | -0.136% | mark=99.594194 | index=99.730000
+2026-04-24 18:19:39 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:39 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.602% | mark=0.004086 | index=0.004423
+2026-04-24 18:19:39 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:39 | INFO | 📊 Lowest dev now: BZUSDT | -0.135% | mark=99.615161 | index=99.750000
+2026-04-24 18:19:40 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:40 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.706% | mark=0.004087 | index=0.004428
+2026-04-24 18:19:40 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:40 | INFO | 📊 Lowest dev now: BZUSDT | -0.135% | mark=99.615484 | index=99.750000
+2026-04-24 18:19:41 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:41 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.328% | mark=0.004087 | index=0.004410
+2026-04-24 18:19:41 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:41 | INFO | 📊 Lowest dev now: BZUSDT | -0.135% | mark=99.615806 | index=99.750000
+2026-04-24 18:19:42 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:42 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.322% | mark=0.004087 | index=0.004410
+2026-04-24 18:19:42 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:42 | INFO | 📊 Lowest dev now: BZUSDT | -0.134% | mark=99.626500 | index=99.760000
+2026-04-24 18:19:43 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:43 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.322% | mark=0.004087 | index=0.004410
+2026-04-24 18:19:43 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:43 | INFO | 📊 Lowest dev now: BZUSDT | -0.135% | mark=99.625806 | index=99.760000
+2026-04-24 18:19:44 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:44 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.755% | mark=0.004088 | index=0.004432
+2026-04-24 18:19:44 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:44 | INFO | 📊 Lowest dev now: BZUSDT | -0.134% | mark=99.626452 | index=99.760000
+2026-04-24 18:19:45 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:45 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.754% | mark=0.004088 | index=0.004432
+2026-04-24 18:19:45 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:45 | INFO | 📊 Lowest dev now: BZUSDT | -0.133% | mark=99.622258 | index=99.755000
+2026-04-24 18:19:46 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:46 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.736% | mark=0.004088 | index=0.004431
+2026-04-24 18:19:46 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:46 | INFO | 📊 Lowest dev now: BZUSDT | -0.132% | mark=99.623065 | index=99.755000
+2026-04-24 18:19:47 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:47 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.730% | mark=0.004089 | index=0.004431
+2026-04-24 18:19:47 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:47 | INFO | 📊 Lowest dev now: BZUSDT | -0.131% | mark=99.624194 | index=99.755000
+2026-04-24 18:19:48 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:48 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.724% | mark=0.004089 | index=0.004431
+2026-04-24 18:19:48 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:48 | INFO | 📊 Lowest dev now: BZUSDT | -0.131% | mark=99.634677 | index=99.765000
+2026-04-24 18:19:49 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:49 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.724% | mark=0.004089 | index=0.004431
+2026-04-24 18:19:49 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:49 | INFO | 📊 Lowest dev now: BZUSDT | -0.130% | mark=99.635161 | index=99.765000
+2026-04-24 18:19:50 | INFO | ✅ WS alive | last message 0.9s ago | cached=689 symbols
+2026-04-24 18:19:50 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:50 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.719% | mark=0.004089 | index=0.004431
+2026-04-24 18:19:50 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:50 | INFO | 📊 Lowest dev now: BZUSDT | -0.130% | mark=99.635645 | index=99.765000
+2026-04-24 18:19:51 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:51 | INFO | 🚨 ALERT queued | TOKENUSDT | dev=-7.901% | mark=0.00408969 | index=0.00444055
+2026-04-24 18:19:51 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.901% | mark=0.004090 | index=0.004441
+2026-04-24 18:19:51 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:51 | INFO | 📊 Lowest dev now: BZUSDT | -0.129% | mark=99.626452 | index=99.755000
+2026-04-24 18:19:52 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:52 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.895% | mark=0.004090 | index=0.004441
+2026-04-24 18:19:52 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:52 | INFO | 📊 Lowest dev now: BZUSDT | -0.130% | mark=99.625323 | index=99.755000
+2026-04-24 18:19:53 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:53 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.894% | mark=0.004090 | index=0.004441
+2026-04-24 18:19:53 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:53 | INFO | 📊 Lowest dev now: BZUSDT | -0.132% | mark=99.623548 | index=99.755000
+2026-04-24 18:19:54 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:54 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.883% | mark=0.004090 | index=0.004441
+2026-04-24 18:19:54 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:54 | INFO | 📊 Lowest dev now: BZUSDT | -0.134% | mark=99.626452 | index=99.760000
+2026-04-24 18:19:55 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:55 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.883% | mark=0.004090 | index=0.004441
+2026-04-24 18:19:55 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:55 | INFO | 📊 Lowest dev now: BZUSDT | -0.135% | mark=99.624839 | index=99.760000
+2026-04-24 18:19:56 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:56 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.743% | mark=0.004091 | index=0.004434
+2026-04-24 18:19:56 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:56 | INFO | 📊 Lowest dev now: BZUSDT | -0.137% | mark=99.622903 | index=99.760000
+2026-04-24 18:19:57 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:57 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.738% | mark=0.004091 | index=0.004434
+2026-04-24 18:19:57 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:57 | INFO | 📊 Lowest dev now: BZUSDT | -0.139% | mark=99.621613 | index=99.760000
+2026-04-24 18:19:58 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:58 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.727% | mark=0.004091 | index=0.004434
+2026-04-24 18:19:58 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:58 | INFO | 📊 Lowest dev now: BZUSDT | -0.141% | mark=99.619355 | index=99.760000
+2026-04-24 18:19:59 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:19:59 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.875% | mark=0.004092 | index=0.004441
+2026-04-24 18:19:59 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:19:59 | INFO | 📊 Lowest dev now: BZUSDT | -0.143% | mark=99.607742 | index=99.750000
+2026-04-24 18:20:00 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:20:00 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.870% | mark=0.004092 | index=0.004441
+2026-04-24 18:20:00 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:20:00 | INFO | 📊 Lowest dev now: BZUSDT | -0.145% | mark=99.605806 | index=99.750000
+2026-04-24 18:20:01 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:20:01 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.864% | mark=0.004092 | index=0.004441
+2026-04-24 18:20:01 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:20:01 | INFO | 📊 Lowest dev now: BZUSDT | -0.146% | mark=99.604516 | index=99.750000
+2026-04-24 18:20:02 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:20:02 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.859% | mark=0.004092 | index=0.004441
+2026-04-24 18:20:02 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:20:02 | INFO | 📊 Lowest dev now: BZUSDT | -0.147% | mark=99.588667 | index=99.735000
+2026-04-24 18:20:03 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:20:03 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.859% | mark=0.004092 | index=0.004441
+2026-04-24 18:20:03 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:20:03 | INFO | 📊 Lowest dev now: BZUSDT | -0.147% | mark=99.588871 | index=99.735000
+2026-04-24 18:20:04 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:20:04 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.849% | mark=0.004093 | index=0.004441
+2026-04-24 18:20:04 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:20:04 | INFO | 📊 Lowest dev now: BZUSDT | -0.147% | mark=99.588387 | index=99.735000
+2026-04-24 18:20:05 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:20:05 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.844% | mark=0.004093 | index=0.004441
+2026-04-24 18:20:05 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:20:05 | INFO | 📊 Lowest dev now: BZUSDT | -0.148% | mark=99.592742 | index=99.740000
+2026-04-24 18:20:06 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:20:06 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.843% | mark=0.004093 | index=0.004441
+2026-04-24 18:20:06 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:20:06 | INFO | 📊 Lowest dev now: BZUSDT | -0.148% | mark=99.592097 | index=99.740000
+2026-04-24 18:20:07 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:20:07 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.962% | mark=0.004093 | index=0.004447
+2026-04-24 18:20:07 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:20:07 | INFO | 📊 Lowest dev now: BZUSDT | -0.147% | mark=99.593387 | index=99.740000
+2026-04-24 18:20:08 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:20:08 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.953% | mark=0.004094 | index=0.004447
+2026-04-24 18:20:08 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:20:08 | INFO | 📊 Lowest dev now: BZUSDT | -0.145% | mark=99.580484 | index=99.725000
+2026-04-24 18:20:09 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:20:09 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.840% | mark=0.004094 | index=0.004442
+2026-04-24 18:20:09 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:20:09 | INFO | 📊 Lowest dev now: BZUSDT | -0.143% | mark=99.582258 | index=99.725000
+2026-04-24 18:20:10 | INFO | ✅ WS alive | last message 0.9s ago | cached=689 symbols
+2026-04-24 18:20:10 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:20:10 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.840% | mark=0.004094 | index=0.004442
+2026-04-24 18:20:10 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:20:10 | INFO | 📊 Lowest dev now: BZUSDT | -0.141% | mark=99.584677 | index=99.725000
+2026-04-24 18:20:11 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:20:11 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.840% | mark=0.004094 | index=0.004443
+2026-04-24 18:20:11 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:20:11 | INFO | 📊 Lowest dev now: BZUSDT | -0.138% | mark=99.587097 | index=99.725000
+2026-04-24 18:20:12 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:20:12 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.741% | mark=0.004095 | index=0.004438
+2026-04-24 18:20:12 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:20:12 | INFO | 📊 Lowest dev now: BZUSDT | -0.138% | mark=99.667258 | index=99.805000
+2026-04-24 18:20:13 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:20:13 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.737% | mark=0.004095 | index=0.004438
+2026-04-24 18:20:13 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:20:13 | INFO | 📊 Lowest dev now: BZUSDT | -0.137% | mark=99.668333 | index=99.805000
+2026-04-24 18:20:14 | INFO | 📥 WS packet received | symbols=689
+2026-04-24 18:20:14 | INFO | 📊 Lowest dev now: TOKENUSDT | -7.736% | mark=0.004095 | index=0.004438
+2026-04-24 18:20:14 | INFO | 📥 WS packet received | symbols=31
+2026-04-24 18:20:14 | INFO | 📊 Lowest dev now: BZUSDT | -0.137% | mark=99.668226 | index=99.805000
+2026-04-24 18:20:15 | ERROR | ❌ WebSocket error: no running event loop
+Traceback (most recent call last):
+  File "C:\Users\sereg\Documents\dev\stopnda_index\index.py", line 122, in websocket_listener
+    async for data in ws:
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sereg\Documents\dev\stopnda_index\index.py", line 113, in websocket_listener
+    async with websockets.connect(
+  File "C:\Users\sereg\AppData\Roaming\Python\Python312\site-packages\websockets\legacy\client.py", line 637, in __aexit__
+    await self.protocol.close()
+  File "C:\Users\sereg\AppData\Roaming\Python\Python312\site-packages\websockets\legacy\protocol.py", line 769, in close
+    async with asyncio_timeout(self.close_timeout):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\timeouts.py", line 145, in timeout
+    loop = events.get_running_loop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+2026-04-24 18:20:15 | INFO | 🔄 Reconnecting to Binance in 5 seconds...
