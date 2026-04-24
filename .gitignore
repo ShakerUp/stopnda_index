@@ -1,0 +1,50 @@
+# ---------------- PYTHON ----------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# pip / build
+build/
+dist/
+*.egg-info/
+
+# ---------------- ENV ----------------
+.env
+.env.*
+*.env
+
+# ---------------- LOGS ----------------
+*.log
+
+# ---------------- DATABASE ----------------
+*.db
+*.sqlite3
+
+# ---------------- OS FILES ----------------
+.DS_Store
+Thumbs.db
+
+# ---------------- IDE ----------------
+.vscode/
+.idea/
+
+# ---------------- CACHE ----------------
+.cache/
+*.cache
+
+# ---------------- TELEGRAM BOT ----------------
+config.json
+
+# ---------------- TEMP FILES ----------------
+*.tmp
+*.bak
+*.swp
+
+# ---------------- JUPYTER ----------------
+.ipynb_checkpoints/

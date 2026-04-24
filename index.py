@@ -129,7 +129,7 @@ async def websocket_listener(app):
                         logger.exception(f"JSON parse error: {e}")
                         continue
 
-                    logger.info(f"📥 WS packet received | symbols={len(prices)}")
+                    # logger.info(f"📥 WS packet received | symbols={len(prices)}")
 
                     max_negative = None
 
@@ -183,10 +183,10 @@ async def websocket_listener(app):
                                     "dev": deviation
                                 }
 
-                                logger.info(
-                                    f"🚨 ALERT queued | {symbol} | dev={deviation:.3f}% | "
-                                    f"mark={mark} | index={index}"
-                                )
+                                # logger.info(
+                                #     f"🚨 ALERT queued | {symbol} | dev={deviation:.3f}% | "
+                                #     f"mark={mark} | index={index}"
+                                # )
 
                                 keyboard = InlineKeyboardMarkup([[
                                     InlineKeyboardButton(
@@ -214,10 +214,10 @@ async def websocket_listener(app):
 
                     if max_negative:
                         s, dev, mark, index = max_negative
-                        logger.info(
-                            f"📊 Lowest dev now: {s} | {dev:.3f}% | "
-                            f"mark={mark:.6f} | index={index:.6f}"
-                        )
+                        # logger.info(
+                        #     f"📊 Lowest dev now: {s} | {dev:.3f}% | "
+                        #     f"mark={mark:.6f} | index={index:.6f}"
+                        # )
 
         except Exception as e:
 

@@ -549,3 +549,133 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^
 RuntimeError: no running event loop
 2026-04-24 18:20:15 | INFO | 🔄 Reconnecting to Binance in 5 seconds...
+2026-04-24 18:25:15 | INFO | Connecting to Binance WebSocket...
+2026-04-24 18:25:15 | INFO | ✅ WS alive | last message 0.6s ago | cached=0 symbols
+2026-04-24 18:25:16 | INFO | ✅ Connected to Binance WebSocket
+2026-04-24 18:25:17 | INFO | 📊 Lowest dev now: BOBUSDT | -0.772% | mark=0.006071 | index=0.006118
+2026-04-24 18:25:17 | INFO | 📊 Lowest dev now: BZUSDT | -0.133% | mark=99.607258 | index=99.740000
+2026-04-24 18:25:17 | INFO | 📊 Lowest dev now: BOBUSDT | -0.772% | mark=0.006071 | index=0.006118
+2026-04-24 18:25:17 | INFO | 📊 Lowest dev now: BZUSDT | -0.133% | mark=99.597581 | index=99.730000
+2026-04-24 18:25:18 | INFO | 📊 Lowest dev now: BOBUSDT | -0.767% | mark=0.006071 | index=0.006118
+2026-04-24 18:25:18 | INFO | 📊 Lowest dev now: BZUSDT | -0.132% | mark=99.597903 | index=99.730000
+2026-04-24 18:25:19 | INFO | 📊 Lowest dev now: BOBUSDT | -0.767% | mark=0.006071 | index=0.006118
+2026-04-24 18:25:19 | INFO | 📊 Lowest dev now: BZUSDT | -0.132% | mark=99.598226 | index=99.730000
+2026-04-24 18:25:20 | INFO | 📊 Lowest dev now: BOBUSDT | -0.767% | mark=0.006071 | index=0.006118
+2026-04-24 18:25:20 | INFO | 📊 Lowest dev now: BZUSDT | -0.131% | mark=99.599194 | index=99.730000
+2026-04-24 18:25:21 | INFO | 📊 Lowest dev now: BOBUSDT | -0.767% | mark=0.006071 | index=0.006118
+2026-04-24 18:25:21 | INFO | 📊 Lowest dev now: BZUSDT | -0.130% | mark=99.600667 | index=99.730000
+2026-04-24 18:25:22 | INFO | 📊 Lowest dev now: BOBUSDT | -0.767% | mark=0.006071 | index=0.006118
+2026-04-24 18:25:22 | INFO | 📊 Lowest dev now: BZUSDT | -0.131% | mark=99.599839 | index=99.730000
+2026-04-24 18:25:23 | INFO | 📊 Lowest dev now: BOBUSDT | -0.767% | mark=0.006071 | index=0.006118
+2026-04-24 18:25:23 | INFO | 📊 Lowest dev now: BZUSDT | -0.131% | mark=99.599516 | index=99.730000
+2026-04-24 18:25:24 | INFO | 📊 Lowest dev now: BOBUSDT | -0.767% | mark=0.006071 | index=0.006118
+2026-04-24 18:25:24 | INFO | 📊 Lowest dev now: BZUSDT | -0.131% | mark=99.599194 | index=99.730000
+2026-04-24 18:25:25 | INFO | 📊 Lowest dev now: BOBUSDT | -0.758% | mark=0.006072 | index=0.006118
+2026-04-24 18:25:25 | INFO | 📊 Lowest dev now: BZUSDT | -0.132% | mark=99.598226 | index=99.730000
+2026-04-24 18:25:26 | INFO | 📊 Lowest dev now: BOBUSDT | -0.758% | mark=0.006072 | index=0.006118
+2026-04-24 18:25:26 | INFO | 📊 Lowest dev now: BZUSDT | -0.135% | mark=99.595323 | index=99.730000
+2026-04-24 18:25:27 | INFO | 📊 Lowest dev now: BOBUSDT | -0.758% | mark=0.006072 | index=0.006118
+2026-04-24 18:25:27 | INFO | 📊 Lowest dev now: BZUSDT | -0.138% | mark=99.592419 | index=99.730000
+2026-04-24 18:25:28 | INFO | 📊 Lowest dev now: BOBUSDT | -0.758% | mark=0.006072 | index=0.006118
+2026-04-24 18:25:28 | INFO | 📊 Lowest dev now: BZUSDT | -0.141% | mark=99.589516 | index=99.730000
+2026-04-24 18:25:29 | ERROR | ❌ WebSocket error: no running event loop
+Traceback (most recent call last):
+  File "C:\Users\sereg\Documents\dev\stopnda_index\index.py", line 122, in websocket_listener
+    async for data in ws:
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sereg\Documents\dev\stopnda_index\index.py", line 113, in websocket_listener
+    async with websockets.connect(
+  File "C:\Users\sereg\AppData\Roaming\Python\Python312\site-packages\websockets\legacy\client.py", line 637, in __aexit__
+    await self.protocol.close()
+  File "C:\Users\sereg\AppData\Roaming\Python\Python312\site-packages\websockets\legacy\protocol.py", line 769, in close
+    async with asyncio_timeout(self.close_timeout):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\timeouts.py", line 145, in timeout
+    loop = events.get_running_loop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+2026-04-24 18:25:29 | INFO | 🔄 Reconnecting to Binance in 5 seconds...
+2026-04-24 18:25:31 | INFO | Connecting to Binance WebSocket...
+2026-04-24 18:25:31 | INFO | ✅ WS alive | last message 0.7s ago | cached=0 symbols
+2026-04-24 18:25:32 | INFO | ✅ Connected to Binance WebSocket
+2026-04-24 18:25:33 | INFO | 📊 Lowest dev now: BOBUSDT | -0.749% | mark=0.006072 | index=0.006118
+2026-04-24 18:25:33 | INFO | 📊 Lowest dev now: BZUSDT | -0.142% | mark=99.583710 | index=99.725000
+2026-04-24 18:25:33 | INFO | 📊 Lowest dev now: BOBUSDT | -0.749% | mark=0.006072 | index=0.006118
+2026-04-24 18:25:33 | INFO | 📊 Lowest dev now: BZUSDT | -0.142% | mark=99.588387 | index=99.730000
+2026-04-24 18:25:34 | INFO | 📊 Lowest dev now: BOBUSDT | -0.749% | mark=0.006072 | index=0.006118
+2026-04-24 18:25:34 | INFO | 📊 Lowest dev now: BZUSDT | -0.142% | mark=99.588387 | index=99.730000
+2026-04-24 18:25:35 | INFO | 📊 Lowest dev now: BOBUSDT | -0.749% | mark=0.006072 | index=0.006118
+2026-04-24 18:25:35 | INFO | 📊 Lowest dev now: BZUSDT | -0.142% | mark=99.588710 | index=99.730000
+2026-04-24 18:25:36 | INFO | 📊 Lowest dev now: BOBUSDT | -0.749% | mark=0.006072 | index=0.006118
+2026-04-24 18:25:36 | INFO | 📊 Lowest dev now: BZUSDT | -0.143% | mark=99.597742 | index=99.740000
+2026-04-24 18:25:37 | INFO | 📊 Lowest dev now: BOBUSDT | -0.749% | mark=0.006072 | index=0.006118
+2026-04-24 18:25:37 | INFO | 📊 Lowest dev now: BZUSDT | -0.143% | mark=99.597097 | index=99.740000
+2026-04-24 18:25:38 | INFO | 📊 Lowest dev now: BOBUSDT | -0.759% | mark=0.006072 | index=0.006118
+2026-04-24 18:25:38 | INFO | 📊 Lowest dev now: BZUSDT | -0.143% | mark=99.597097 | index=99.740000
+2026-04-24 18:25:39 | INFO | 📊 Lowest dev now: BOBUSDT | -0.759% | mark=0.006072 | index=0.006118
+2026-04-24 18:25:39 | INFO | 📊 Lowest dev now: BZUSDT | -0.142% | mark=99.598167 | index=99.740000
+2026-04-24 18:25:40 | INFO | 📊 Lowest dev now: BOBUSDT | -0.759% | mark=0.006072 | index=0.006118
+2026-04-24 18:25:40 | INFO | 📊 Lowest dev now: BZUSDT | -0.140% | mark=99.600645 | index=99.740000
+2026-04-24 18:25:41 | INFO | 📊 Lowest dev now: BOBUSDT | -0.759% | mark=0.006072 | index=0.006118
+2026-04-24 18:25:41 | INFO | 📊 Lowest dev now: BZUSDT | -0.137% | mark=99.603226 | index=99.740000
+2026-04-24 18:25:42 | INFO | 📊 Lowest dev now: BOBUSDT | -0.759% | mark=0.006072 | index=0.006118
+2026-04-24 18:25:42 | INFO | 📊 Lowest dev now: BZUSDT | -0.135% | mark=99.615484 | index=99.750000
+2026-04-24 18:25:43 | INFO | 📊 Lowest dev now: BOBUSDT | -0.727% | mark=0.006071 | index=0.006115
+2026-04-24 18:25:43 | INFO | 📊 Lowest dev now: BZUSDT | -0.131% | mark=99.619032 | index=99.750000
+2026-04-24 18:25:44 | INFO | 📊 Lowest dev now: BOBUSDT | -0.741% | mark=0.006070 | index=0.006115
+2026-04-24 18:25:44 | INFO | 📊 Lowest dev now: BZUSDT | -0.126% | mark=99.624194 | index=99.750000
+2026-04-24 18:25:45 | INFO | 📊 Lowest dev now: BOBUSDT | -0.727% | mark=0.006071 | index=0.006115
+2026-04-24 18:25:45 | INFO | 📊 Lowest dev now: BZUSDT | -0.123% | mark=99.687097 | index=99.810000
+2026-04-24 18:25:46 | INFO | 📊 Lowest dev now: BOBUSDT | -0.727% | mark=0.006071 | index=0.006115
+2026-04-24 18:25:46 | INFO | 📊 Lowest dev now: BZUSDT | -0.120% | mark=99.690000 | index=99.810000
+2026-04-24 18:25:47 | ERROR | ❌ WebSocket error: no running event loop
+Traceback (most recent call last):
+  File "C:\Users\sereg\Documents\dev\stopnda_index\index.py", line 122, in websocket_listener
+    async for data in ws:
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sereg\Documents\dev\stopnda_index\index.py", line 113, in websocket_listener
+    async with websockets.connect(
+  File "C:\Users\sereg\AppData\Roaming\Python\Python312\site-packages\websockets\legacy\client.py", line 637, in __aexit__
+    await self.protocol.close()
+  File "C:\Users\sereg\AppData\Roaming\Python\Python312\site-packages\websockets\legacy\protocol.py", line 769, in close
+    async with asyncio_timeout(self.close_timeout):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\timeouts.py", line 145, in timeout
+    loop = events.get_running_loop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+2026-04-24 18:25:47 | INFO | 🔄 Reconnecting to Binance in 5 seconds...
+2026-04-24 18:25:49 | INFO | Connecting to Binance WebSocket...
+2026-04-24 18:25:49 | INFO | ✅ WS alive | last message 0.7s ago | cached=0 symbols
+2026-04-24 18:25:50 | INFO | ✅ Connected to Binance WebSocket
+2026-04-24 18:26:09 | INFO | ✅ WS alive | last message 1.0s ago | cached=689 symbols
+2026-04-24 18:26:29 | INFO | ✅ WS alive | last message 0.0s ago | cached=689 symbols
+2026-04-24 18:26:43 | ERROR | ❌ WebSocket error: no running event loop
+Traceback (most recent call last):
+  File "C:\Users\sereg\Documents\dev\stopnda_index\index.py", line 122, in websocket_listener
+    async for data in ws:
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sereg\Documents\dev\stopnda_index\index.py", line 113, in websocket_listener
+    async with websockets.connect(
+  File "C:\Users\sereg\AppData\Roaming\Python\Python312\site-packages\websockets\legacy\client.py", line 637, in __aexit__
+    await self.protocol.close()
+  File "C:\Users\sereg\AppData\Roaming\Python\Python312\site-packages\websockets\legacy\protocol.py", line 769, in close
+    async with asyncio_timeout(self.close_timeout):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\timeouts.py", line 145, in timeout
+    loop = events.get_running_loop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: no running event loop
+2026-04-24 18:26:43 | INFO | 🔄 Reconnecting to Binance in 5 seconds...
